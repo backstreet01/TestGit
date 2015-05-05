@@ -11,7 +11,7 @@ public class SimpleJob implements Job{
 	@Override
 	public void execute(JobExecutionContext jec) throws JobExecutionException {
 		// TODO Auto-generated method stub
-		System.out.println(jec.getTrigger().getName() + "triggered time is : " + (new Date()));
+		System.out.println(jec.getTrigger().getName() + " triggered time is : " + (new Date()));
 	}
 
 }
